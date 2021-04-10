@@ -1,0 +1,225 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 60%;
+}
+.instagra-celular{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50%;
+
+}
+
+imagem-phone{
+    height: 30px;
+    padding-top: 1px;
+    margin-top: 1px;
+  
+}
+.continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column ;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 37%;
+    padding: 1px;
+}
+
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.grupo:nth-child(1){
+    min-height: 19rem;
+}
+
+.perfil1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow:hidden;
+
+}
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px;
+}
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.texto{
+    color: rgb(160, 160, 160);
+}
+
+.azul{
+
+    color: #0095f6;
+    cursor: pointer;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.get{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.apps{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.baixe{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 40%;
+}
+
+
+.download{
+    height: 100px;
+    background-size: cover;
+    margin: 15px;
+}
+.download:nth-child(1){
+    background-image: url(IMG/pngwing.png);
+    width: 100%;
+    height: 56px;
+}
+
+.download:nth-child(2){
+    background-image: url(IMG/apple.png);
+    width: 100%;
+    height: 56px;
+}
+.linka{
+    text-decoration: none;
+    color: inherit;
+}
+.base{
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+.org{
+margin-bottom: 3px;
+display: flex;
+   
+}
+.org2{
+    margin-left: 12px;
+    display: flex;
+    font-size: 1px;
+
+}
+
+.org3{
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: inherit;
+    color: grey;
+   margin-right: 30px;
+    font-size: 13px;
+    align-items: center;
+}
+
+
+.roda{
+    display: flex;
+   color: grey;
+    text-align: center;
+    
+}
+
+.hiper{
+    margin-right: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+
+.hiper2{
+    margin-right: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    
+}
+
+
+.geral{
+    display: flex;
+    flex-direction: column;
+}
+
+.para{
+    align-items: center;
+    margin-left: 15px;
+}
+
+.selecao{
+    margin-left: 130px;
+    width: 23%;
+    height: 20px;
+    border: none;
+    color: grey;
+    cursor: pointer;
+}
